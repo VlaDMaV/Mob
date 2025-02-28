@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
             if (text == "Hello World") {
                 Toast.makeText(this, "User enter Hello World", Toast.LENGTH_SHORT).show()
                 } else {
+                Toast.makeText(this, "User enter $text", Toast.LENGTH_SHORT).show()
                 label.text = text
             }
         }

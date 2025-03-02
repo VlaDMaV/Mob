@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Mob_pril_project</string>
+    <string name="close">Close</string>
+    <string name="todo">TODO</string>
 </resources>

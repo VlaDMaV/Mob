@@ -36,7 +36,10 @@ class MainActivity : AppCompatActivity() {
             val text = userData.text.toString().trim()
             if (text == "клянусь" || text == "Клянусь") {
                 showFullScreenImageDialog(R.drawable.klinus, R.raw.thisme)
-            } else {
+            }
+            if (text == "Сегодня" || text == "сегодня") {
+                showFullScreenImageDialog(R.drawable.pes, R.raw.kakal)
+            } else{
                 Toast.makeText(this, "User enter $text", Toast.LENGTH_SHORT).show()
                 label.text = text
             }
